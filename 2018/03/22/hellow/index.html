@@ -9,13 +9,14 @@
   <title>hellow | Alienware</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$">
+<meta name="keywords" content="mathjaxll">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hellow">
 <meta property="og:url" content="http://yoursite.com/2018/03/22/hellow/index.html">
 <meta property="og:site_name" content="Alienware">
 <meta property="og:description" content="$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-22T05:56:24.000Z">
+<meta property="og:updated_time" content="2018-03-22T06:49:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hellow">
 <meta name="twitter:description" content="$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$">
@@ -53,7 +54,7 @@
 		  <h1 class="header-author"><a href="/">Zhang Kai</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">记录学习多技能</p>
+		<p class="header-subtitle">记录学习yu技能</p>
 		
 
 		<nav class="header-menu">
@@ -61,7 +62,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/">简介</a></li>
 	        
 			</ul>
 		</nav>
@@ -69,10 +70,6 @@
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -119,7 +116,7 @@
 			  <h1 class="header-author js-header-author">Zhang Kai</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>记录学习多技能<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>记录学习yu技能<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -155,7 +152,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 50%"><a href="/">简介</a></li>
 		        
 				</ul>
 			</nav>
@@ -221,6 +218,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">mathjaxll</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -395,25 +403,17 @@ MathJax.Hub.Queue(function() {
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -432,6 +432,10 @@ MathJax.Hub.Queue(function() {
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">mathjaxll</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -476,38 +480,6 @@ MathJax.Hub.Queue(function() {
     	</section>
     
 
-    
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
     
 
     
